@@ -79,7 +79,7 @@ bash
 
 bash
 git clone https://github.com/elielfresnel/TDD-EXAM.git
-cd TDD-EXAM
+cd TDD-EXAM\src
 
 ## 🚦 Lancer les tests
 
@@ -141,7 +141,7 @@ TDD-PHP/
 ### Avec le serveur PHP intégré :
 #### Windows (CMD) :
 ```bash
-cd C:\xampp\htdocs\tdd-php
+cd C:\xampp\htdocs\tdd-php\src
 php -S localhost:8000
 ```
 
