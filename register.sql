@@ -42,9 +42,9 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`ID`, `First_Name`, `Last_Name`, `Email`, `pwd`) VALUES
-(21, 'Deshan', 'Jayashanka', 'maxwon555@gmail.com', 'f0b035b0080020fb086c75ab3ef308ff'),
-(20, 'Deshan', 'Jayashanka', 'maxwon555@gmail.com', '|GQB]Rz2Wlh#Twt'),
-(19, 'Deshan', 'Jayashanka', 'maxwon555@gmail.com', '|GQB]Rz2Wlh#Twt');
+(20, 'Eliel', 'Fresnel', 'elielfresnel@gmail.com', 'f0b035b0080020fb086c75ab3ef308ff'),
+(21, 'Elie', 'Jacques', 'elieahouangassi@gmail.com', '|GQB]Rz2Wlh#Twt'),
+(19, 'Paula', 'Sarah', 'paulalopo@gmail.com', '|GQB]Rz2Wlh#Twt');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
