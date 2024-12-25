@@ -28,7 +28,7 @@ class SecurityTests extends TestCase
 
     private function prepareStatement($email)
     {
-        $conn = new mysqli('localhost', 'username', 'password', 'database');
+        $conn = new mysqli('localhost', 'root', '93230Elielfresnel', 'register');
         $stmt = $conn->prepare("SELECT * FROM users WHERE email = ?");
         $stmt->bind_param("s", $email);
         return $stmt->execute();
@@ -39,7 +39,7 @@ class SecurityTests extends TestCase
     {
         $input = "<script>alert('XSS');</script>";
         $cleanInput = htmlspecialchars($input, ENT_QUOTES, 'UTF-8');
-        $this->assertEquals("&lt;script&gt;alert('XSS');&lt;/script&gt;", $cleanInput);
+        $this->assertEquals("&lt;script&gt;alert(&#039;XSS&#039;);&lt;/script&gt;", $cleanInput);
     }
 
     // Test Protection CSRF
