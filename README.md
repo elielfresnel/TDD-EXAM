@@ -84,6 +84,8 @@ cd TDD-EXAM\src
 ## 🚦 Lancer les tests
 
 ### Windows :
+
+#### NB : Pour les tests , au niveau du SecurityTests.Php , veuillez à modifier au niveau de la partie du test de l'injection SQL , les informations en focntion de votre base de données
 1. Dans le terminal, exécutez :
     ```bash
     cd C:\xampp\htdocs\tdd-php
