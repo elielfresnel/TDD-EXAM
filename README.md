@@ -1,9 +1,9 @@
 # Guide du Projet : Authentification Sécurisée
 
 ## TP du groupe composé de :
-- **ADANHOUNDJI Eliel Fresnel M.**
-- **AHOUANGASSI Elie**
-- **LOPO Paula**
+- **ADANHOUNDJI Eliel Fresnel M. (Le Développeur)**
+- **AHOUANGASSI Elie (Le testeur)**
+- **LOPO Paula (La responsable sécurité)**
 
 ---
 
